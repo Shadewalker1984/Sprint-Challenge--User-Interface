@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2em;
+    align-items: flex-end;
+}
+
+nav a:hover {
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
