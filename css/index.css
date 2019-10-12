@@ -158,9 +158,6 @@ nav a:hover {
 #box-ten {
     background: dodgerblue;
 }
-
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -192,4 +189,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About page starts here*/
+
+.aboutImage {
+    width: 100%;
+}
+
+.upperAbout {
+
+}
+
+.strategyBody {
+
+}
+
+.howWeWork {
+
 }
