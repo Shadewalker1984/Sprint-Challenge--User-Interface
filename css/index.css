@@ -74,7 +74,7 @@ p {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 2em;
     align-items: flex-end;
 }
@@ -193,19 +193,67 @@ footer nav a {
 
 
 /* About page starts here*/
-
+.aboutPage {
+    width: 800px;
+    margin: 0 auto;
+}
 .aboutImage {
     width: 100%;
 }
+p {
+    width: 100%;
+}
 
+img {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.totalAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
 .upperAbout {
-
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .strategyBody {
-
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.learnMore {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.learnButton {
+    display: flex;
+    justify-content: flex-start;
+}
+.bodyBox {
+    width: 46%;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.bottomContainer {
+    width: 100%;
+    margin-top: 2em;
 }
 
-.howWeWork {
-
+.bottomClass {
+    margin top: 20px;
 }
