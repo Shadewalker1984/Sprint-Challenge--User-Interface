@@ -255,5 +255,44 @@ img {
 }
 
 .bottomClass {
-    margin top: 20px;
+    margin-top: 20px;
+}
+
+.supportPara {
+    width: 100%;
+    margin-bottom: 2em;
+}
+.supportBoxUpper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.leftBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+    /* border: 2px solid black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.rightBox {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
