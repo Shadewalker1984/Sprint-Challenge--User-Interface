@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: flex-end;
+}
+
+nav a:hover {
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +124,40 @@ p {
     justify-content: center;
 }
 
+#box-one {
+    background: teal;
+}
+#box-two {
+    background: gold;
+}
+
+#box-three {
+    background: cadetblue;
+}
+#box-four {
+    background: coral;
+}
+
+#box-five {
+    background: crimson;
+}
+
+#box-six {
+    background: forestgreen;
+}
+
+#box-seven {
+    background: darkorchid;
+}
+#box-eight {
+    background: hotpink;
+}
+#box-nine {
+    background: indigo;
+}
+#box-ten {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +189,110 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About page starts here*/
+.aboutPage {
+    width: 800px;
+    margin: 0 auto;
+}
+.aboutImage {
+    width: 100%;
+}
+p {
+    width: 100%;
+}
+
+img {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.totalAbout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+.upperAbout {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.strategyBody {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.learnMore {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.learnButton {
+    display: flex;
+    justify-content: flex-start;
+}
+.bodyBox {
+    width: 46%;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.bottomContainer {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.bottomClass {
+    margin-top: 20px;
+}
+
+.supportPara {
+    width: 100%;
+    margin-bottom: 2em;
+}
+.supportBoxUpper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.leftBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+    /* border: 2px solid black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.rightBox {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
